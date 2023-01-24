@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    ///Homepage
+    <string name="app_name">Heure Du Quiz</string>
+    <string name="app1">Devinez Le Pays</string>
+    <string name="app2">Devinez L\'animal</string>
+    <string name="score1">Scores</string>
+    <string name="score2">Scores</string>
+    <string name="result_msg">S\'amuser!</string>
+
+
+    //Guess the Country App
+    <string name="question">Où est:</string>
+    <string name="portugal">Le Portugal</string>
+    <string name="spain">Espagne</string>
+    <string name="germany">Allemagne</string>
+    <string name="france">La France</string>
+    <string name="poland">Pologne</string>
+    <string name="belarus">Biélorussie</string>
+    <string name="russia">Russie</string>
+    <string name="finland">Finlande</string>
+    <string name="norway">Norvège</string>
+    <string name="sweden">La Suède</string>
+    <string name="greece">Grèce</string>
+    <string name="italy">Italie</string>
+    <string name="UK">Angleterre</string>
+    <string name="ireland">Irlande</string>
+    <string name="iceland">Islande</string>
+    <string name="romania">Roumanie</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="start">Début</string>
+    <string name="title">Devinez les pays d\'Europe</string>
+    <string name="timer">2:00</string>
+    <string name="answers">0/17</string>
+    <string name="image">Carte de l\'Europe</string>
+    <string name="notOption">Pas une option</string>
+    <string name="giveUp">Abandonner</string>
+    <string name="congrats">Félicitations! Tu as gagné!</string>
+    <string name="removeTime">-10</string>
+
+
+    /////Guess the Animal App
+    <string name="GuessStatement">Saurez-vous deviner cet animal ?</string>
+    <string name="next">Prochain</string>
+    <string name="Timer">10s</string>
+    <string name="Score">Score: 0</string>
+    <string name="bluefish">Poisson Bleu</string>
+    <string name="FinWhale">Rorqual Commun</string>
+    <string name="SeaGull">Sceller</string>
+    <string name="SiameseFightingFish">Poisson Combattant Siamois</string>
+    <string name="Squid">Calamar</string>
+    <string name="KillerWhale">Orque</string>
+    <string name="Octopus">Poulpe</string>
+    <string name="BottleNoseDolphin">Grand Dauphin</string>
+</resources>

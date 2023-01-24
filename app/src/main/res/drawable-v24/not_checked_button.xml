@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--This code was inspired by one of Adil Soomro's answers on StackOverflow-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+            <solid android:color="@color/not_clicked"/>
+</shape>

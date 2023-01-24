@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    /////Homepage
+    <string name="app_name">وقت التّحدي</string>
+    <string name="app1">احزر البلد</string>
+    <string name="app2">احزر الحيوان</string>
+    <string name="score1">النتائج</string>
+    <string name="score2">النتائج</string>
+    <string name="result_msg">استمتع!</string>
+
+
+    ////Guess the Country
+    <string name="question">أين تقع:</string>
+    <string name="portugal">البرتغال</string>
+    <string name="spain">اسبانيا</string>
+    <string name="germany">ألمانيا</string>
+    <string name="france">فرنسا</string>
+    <string name="poland">بولندا</string>
+    <string name="belarus">بيلاروسيا</string>
+    <string name="russia">روسيا</string>
+    <string name="finland">فنلندا</string>
+    <string name="norway">النرويج</string>
+    <string name="sweden">السويد</string>
+    <string name="greece">اليونان</string>
+    <string name="italy">إيطاليا</string>
+    <string name="UK">المملكة المتحدة</string>
+    <string name="ireland">ايرلندا</string>
+    <string name="iceland">أيسلندا</string>
+    <string name="romania">رومانيا</string>
+    <string name="ukraine">اوكرانيا</string>
+    <string name="start">ابدأ</string>
+    <string name="title">احزر دول أوروبا</string>
+    <string name="timer">2:00</string>
+    <string name="answers">0/17</string>
+    <string name="image">خريطة أوروبا</string>
+    <string name="notOption">ليس خيارا</string>
+    <string name="giveUp">أستسلم</string>
+    <string name="congrats">تهاني! لقد فزت!</string>
+    <string name="removeTime">-10</string>
+
+
+    /////Guess the Animal App
+    <string name="GuessStatement">هل يمكنك أن تحزر هذا الحيوان؟</string>
+    <string name="next">التالي</string>
+    <string name="Timer">10 ثوان</string>
+    <string name="Score">النتيجة: 0</string>
+    <string name="bluefish">السمكة الزرقاء</string>
+    <string name="FinWhale">حوت الزعنفة</string>
+    <string name="SeaGull">فقمة</string>
+    <string name="SiameseFightingFish">السمكةالسياميةالمقاتلة</string>
+    <string name="Squid">الحبّار</string>
+    <string name="KillerWhale">الحوت القاتل</string>
+    <string name="Octopus">أخطبوط</string>
+    <string name="BottleNoseDolphin">دلفين قاروري الأنف</string>
+
+
+</resources>

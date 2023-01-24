@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    /////Homepage
+    <string name="app_name">Tempo di quiz</string>
+    <string name="app1">Indovina Paese</string>
+    <string name="app2">Indovina Animale</string>
+    <string name="score1">Punteggi</string>
+    <string name="score2">Punteggi</string>
+    <string name="result_msg">Divertiti!</string>
+
+
+    /////Guess the Country
+    <string name="question">Dov\'è:</string>
+    <string name="portugal">Portogallo</string>
+    <string name="spain">Spagna</string>
+    <string name="germany">Germania</string>
+    <string name="france">Francia</string>
+    <string name="poland">Polonia</string>
+    <string name="belarus">Bielorussia</string>
+    <string name="russia">Russia</string>
+    <string name="finland">Finlandia</string>
+    <string name="norway">Norvegia</string>
+    <string name="sweden">Svezia</string>
+    <string name="greece">Grecia</string>
+    <string name="italy">Italia</string>
+    <string name="UK">UK</string>
+    <string name="ireland">Irlanda</string>
+    <string name="iceland">Islanda</string>
+    <string name="romania">Romania</string>
+    <string name="ukraine">Ucraina</string>
+    <string name="start">Inizio</string>
+    <string name="title">Indovina i paesi d\'Europa</string>
+    <string name="timer">2:00</string>
+    <string name="answers">0/17</string>
+    <string name="image">Mappa dell\'Europa</string>
+    <string name="notOption">Non un\'opzione</string>
+    <string name="giveUp">Abbandonare</string>
+    <string name="congrats">Congratulazioni! Hai vinto!</string>
+    <string name="removeTime">-10</string>
+
+
+    ///////Guess the Animal App
+    <string name="GuessStatement">Riesci a indovinare questo animale?</string>
+    <string name="next">Prossimo</string>
+    <string name="Timer">10s</string>
+    <string name="Score">Punteggio: 0</string>
+    <string name="bluefish">Pesce Azzurro</string>
+    <string name="FinWhale">Balenottera Comune</string>
+    <string name="SeaGull">Sigillo</string>
+    <string name="SiameseFightingFish">Pesce Combattente Siamese</string>
+    <string name="Squid">Calamaro</string>
+    <string name="KillerWhale">Balena assassina</string>
+    <string name="Octopus">Polpo</string>
+    <string name="BottleNoseDolphin">Delfino Tursiope</string>
+
+</resources>

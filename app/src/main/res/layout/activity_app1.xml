@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="417dp"
+        android:layout_height="478dp"
+        android:layout_marginTop="96dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/europe" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="@string/timer"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.034"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/question"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/countryName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="@string/answers"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/germany"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="328dp"
+        android:layout_marginEnd="192dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/germany"
+        android:text="@string/germany"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/norway"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="192dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/norway"
+        android:text="@string/norway"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/sweden"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="156dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/sweden"
+        android:text="@string/sweden"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/finland"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="108dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/finland"
+        android:text="@string/finland"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/russia"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/russia"
+        android:text="@string/russia"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/UK"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="256dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/UK"
+        android:text="@string/UK"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/belarus"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="88dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/belarus"
+        android:text="@string/belarus"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/greece"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="116dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/greece"
+        android:text="@string/greece"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/italy"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="200dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/italy"
+        android:text="@string/italy"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/ukraine"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/ukraine"
+        android:text="@string/ukraine"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/ireland"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="308dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/ireland"
+        android:text="@string/ireland"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/iceland"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="288dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/iceland"
+        android:text="@string/iceland"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/spain"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="312dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/spain"
+        android:text="@string/spain"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/portugal"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="364dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/portugal"
+        android:text="@string/portugal"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/france"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="264dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/france"
+        android:text="@string/france"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/poland"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="136dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/poland"
+        android:text="@string/poland"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/romania"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="88dp"
+        android:background="@drawable/not_checked_button"
+        android:contentDescription="@string/romania"
+        android:text="@string/romania"
+        android:textSize="0sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/giveUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/giveUp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

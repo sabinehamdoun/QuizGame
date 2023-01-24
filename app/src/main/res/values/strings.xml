@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">The Challenge</string>
+    <string name="app1">Guess Country</string>
+    <string name="app2">Guess Animal</string>
+    <string name="score1">Scores</string>
+    <string name="score2">Scores</string>
+    <string name="result_msg">Have Fun!</string>
+
+
+    ////Guess the Country App
+    <string name="question">Where is:</string>
+    <string name="portugal">Portugal</string>
+    <string name="spain">Spain</string>
+    <string name="germany">Germany</string>
+    <string name="france">France</string>
+    <string name="poland">Poland</string>
+    <string name="belarus">Belarus</string>
+    <string name="russia">Russia</string>
+    <string name="finland">Finland</string>
+    <string name="norway">Norway</string>
+    <string name="sweden">Sweden</string>
+    <string name="greece">Greece</string>
+    <string name="italy">Italy</string>
+    <string name="UK">UK</string>
+    <string name="ireland">Ireland</string>
+    <string name="iceland">Iceland</string>
+    <string name="romania">Romania</string>
+    <string name="ukraine">Ukraine</string>
+    <string name="start">Start</string>
+    <string name="title">Guess the countries of Europe</string>
+    <string name="timer">2:00</string>
+    <string name="answers">0/17</string>
+    <string name="image">Map of Europe</string>
+    <string name="notOption">Not an option</string>
+    <string name="giveUp">Give Up</string>
+    <string name="congrats">Congrats! You Won!</string>
+    <string name="removeTime">-10</string>
+
+
+    /////Guess the Animal App
+    <string name="GuessStatement">Can you guess this animal?</string>
+    <string name="next">Next</string>
+    <string name="Timer">10s</string>
+    <string name="Score">Score: 0</string>
+    <string name="bluefish">Blue Fish</string>
+    <string name="FinWhale">Fin Whale</string>
+    <string name="SeaGull">Seal</string>
+    <string name="SiameseFightingFish">Siamese Fighting Fish</string>
+    <string name="Squid">Squid</string>
+    <string name="KillerWhale">Killer Whale</string>
+    <string name="Octopus">Octopus</string>
+    <string name="BottleNoseDolphin">Bottlenose Dolphin</string>
+
+
+</resources>
